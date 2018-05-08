@@ -3,6 +3,13 @@
 	<head>
 		<title>Alexandre Leon</title>
     	<link rel="stylesheet" type="text/css" href="style.css" />
+         
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
+
 
 	</head>
 	<body>
@@ -20,6 +27,32 @@
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
         
+        <!-- MENU -->
+        <div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Home is where the heart is..</p>
+</div>
+
+<div id="News" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p> 
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+        
         
 		<footer>
     		<ul>
@@ -27,6 +60,15 @@
         		<li><a href="https://github.com/LeonAlexandre">github.com/LeonAlexandre</a></li>
 			</ul>
 		</footer>
+        
+       <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+        	<script src="script.js"></script>
+
         
 	</body>
 </html>
